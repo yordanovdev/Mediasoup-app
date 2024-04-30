@@ -278,6 +278,11 @@ function Room() {
           <RoomOverview key={room.roomId} room={room} />
         ))}
       </div>
+      {/* <div>
+        <button onClick={() => producerTransport.close()}>
+          Close Producer Transport
+        </button>
+      </div> */}
     </div>
   );
 }
